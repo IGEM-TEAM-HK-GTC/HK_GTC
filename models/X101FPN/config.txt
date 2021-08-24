@@ -1,0 +1,25 @@
+def create_cfg():
+  cfg = get_cfg()
+  cfg.merge_from_file(model_zoo.get_config_file("COCO-InstanceSegmentation/mask_rcnn_X_101_32x8d_FPN_3x.yaml"))
+  cfg.DATASETS.TRAIN = ("PET_train",)
+  cfg.DATASETS.TEST = ("PET_val",)
+  cfg.DATALOADER.NUM_WORKERS = 2
+  cfg.DATALOADER.FILTER_EMPTY_ANNOTATIONS = False
+  cfg.MODEL.WEIGHTS = model_zoo.get_checkpoint_url("COCO-InstanceSegmentation/mask_rcnn_X_101_32x8d_FPN_3x.yaml") 
+  cfg.SOLVER.IMS_PER_BATCH = 4               #BATCH_SIZE
+  cfg.SOLVER.BASE_LR = 0.00025
+  cfg.SOLVER.STEPS = []
+  cfg.SOLVER.MAX_ITER = 1000                ##epoch = MAX_ITER * BATCH_SIZE / TOTAL_NUM_IMAGES
+  '''For reference, 1000 MAX ITER need 5-6 hours to train for me, feel free to change it'''
+
+  cfg.SOLVER.CHECKPOINT_PERIOD = 5000
+  cfg.TEST.EVAL_PERIOD = 20                 ##change this for evaluation
+  cfg.MODEL.ROI_HEADS.BATCH_SIZE_PER_IMAGE = 128  
+  cfg.MODEL.ROI_HEADS.NUM_CLASSES = 1 
+  #cfg.MODEL.DEVICE = "cpu" # Comment out if using GPU
+
+  return cfg
+
+cfg = create_cfg()
+
+#train 100 ,val 144
