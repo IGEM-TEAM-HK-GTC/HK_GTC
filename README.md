@@ -13,7 +13,7 @@ As we all know, plastic pollution is a severe problem to our ecosystem. In respo
 ## Training
 You can either train using our [Colab Notebook](https://colab.research.google.com/drive/1638UiZIIqFsfVlL0pctbNzJ-BjrPjdYQ#scrollTo=MCBlPWkL7giV "Colab Notebook") or in a local linux enviornment.
 ### Local  Training / Using the Model
-Clone the repository and open `model_training.ipynb` for model training, and open `detect.ipynb` for using the model. Details of using the codes will be included in the notebooks.
+Clone the repository and open `colab.ipynb` for model training and usage. Details of using the codes will be included in the notebooks.
 
 #Training Results
 We've trained our photos with different backbones and sample size. Backbones can be found in [detectron2/MODEL_ZOO](https://github.com/facebookresearch/detectron2/blob/master/MODEL_ZOO.md "detectron2/MODEL_ZOO"). The samples are selected randomly from the training dataset. The configurations used for all training are as follow:
