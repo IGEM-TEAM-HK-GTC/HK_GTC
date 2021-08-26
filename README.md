@@ -25,7 +25,7 @@ We've trained our photos with different backbones and sample size. Backbones can
 | Backbone  |  AP  |   AP50| AP75  | APs  | APm  |  APl | model |
 | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |------------ |
 |  R50-FPN |   |   |   |   |   |   |||
-| R101-FPN  |52.2| 75.6  | 59.8  |19.7|  45.5 | 68.7 ||
+| R101-FPN  |52.2| 75.6  | 59.8  |19.7|  45.5 | 68.7 |[model](https://github.com/IGEM-TEAM-HK-GTC/HK_GTC/blob/main/models/101FPN3x/model_final.pth)|
 | X101-FPN  |   |   |   |   |   |   |   ||
 
 ### Random-subampling test
