@@ -9,6 +9,7 @@ As we all know, plastic pollution is a severe problem to our ecosystem. In respo
 - torchvision
 - OpenCV
 - Numpy
+- TensorBoard(Optional you want to access model training preformance)
 ## Training
 You can either train using our [Colab Notebook](https://colab.research.google.com/drive/1638UiZIIqFsfVlL0pctbNzJ-BjrPjdYQ#scrollTo=MCBlPWkL7giV "Colab Notebook") or in a local linux enviornment.
 ###Local  Training / Using the Model
