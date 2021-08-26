@@ -19,7 +19,7 @@ We've trained our photos with different backbones and sample size. Backbones can
 - Backbone used: X101-FPN, R101-FPN, R50-FPN
 - Batch size per step: 4
 - Iterations: 1000
-- Sample size used: 100%, 75%, 50%, 25% of training data
+- Train image percentages used: 100%, 75%, 50%, 25% of training data
 ### Backbone test
 
 | Backbone  |  AP  |   AP50| AP75  | APs  | APm  |  APl | model |
@@ -31,7 +31,7 @@ We've trained our photos with different backbones and sample size. Backbones can
 ### Random-subampling test
 (Models here are all using R50-FPN backbone)
 
-| Backbone  |  AP  |   AP50| AP75  | APs  | APm  |  APl | model |
+| Train Images Percentage  |  AP  |   AP50| AP75  | APs  | APm  |  APl | model |
 | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
 |  100 |   |   |   |   |   |   ||
 | 75  |   |   |   |   |   |   ||
