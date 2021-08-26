@@ -2,7 +2,7 @@
 As we all know, plastic pollution is a severe problem to our ecosystem. In respond to this problem, our team had created a plastic detecting model. In this Github Repository, you will know how to use the model, and train the model with your own dataset.
 
 ## Dependanies
-- Local Linux environment or [Google Colab Notebook](https://colab.research.google.com/drive/1638UiZIIqFsfVlL0pctbNzJ-BjrPjdYQ#scrollTo=MCBlPWkL7giV "Google Colab Notebook")
+- Local Linux environment or [Google Colab Notebook](https://colab.research.google.com/drive/1sCnt15Fhb1XbxI3z0nbDSENIBLorK7ve "Google Colab Notebook")
 - Detectron2
 - Jupyter Notebook
 - pytorch 1.8
