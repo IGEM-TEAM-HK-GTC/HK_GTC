@@ -29,6 +29,7 @@ We've trained our photos with different backbones and sample size. Backbones can
 | X101-FPN  |   |   |   |   |   |   |   ||
 
 ### Random-subampling test
+(Models here are all using R50-FPN backbone)
 
 | Backbone  |  AP  |   AP50| AP75  | APs  | APm  |  APl | model |
 | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
