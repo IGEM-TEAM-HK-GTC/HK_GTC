@@ -2,7 +2,7 @@
 As we all know, plastic pollution is a severe problem to our ecosystem. In respond to this problem, our team had created a plastic detecting model. In this Github Repository, you will know how to use the model, and train the model with your own dataset.
 
 ## Dependanies
-- Local Linux environment or [Google Colab Notebook](https://colab.research.google.com/drive/1638UiZIIqFsfVlL0pctbNzJ-BjrPjdYQ#scrollTo=MCBlPWkL7giV "Google Colab Notebook")
+- Local Linux environment or [Google Colab Notebook](https://colab.research.google.com/drive/1sCnt15Fhb1XbxI3z0nbDSENIBLorK7ve "Google Colab Notebook")
 - Detectron2
 - Jupyter Notebook
 - pytorch 1.8
@@ -25,8 +25,8 @@ We've trained our photos with different backbones and sample size. Backbones can
 | Backbone  |  AP  |   AP50| AP75  | APs  | APm  |  APl | model |
 | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |------------ |
 |  R50-FPN |   |   |   |   |   |   |||
-| R101-FPN  |   |   |   |   |   |   ||
-| X101-FPN  |   |   |   |   |   |   |   ||
+| R101-FPN  |52.2| 75.6  | 59.8  |19.7|  45.5 | 68.7 |[model](https://github.com/IGEM-TEAM-HK-GTC/HK_GTC/blob/main/models/101FPN3x/model_final.pth)|
+| X101-FPN  | 52.7  | 75.7 | 58.9|13.3 |  47.9 | 68.5 |[model](https://github.com/IGEM-TEAM-HK-GTC/HK_GTC/blob/main/models/X101FPN/model_final.pth) |
 
 ### Random-subampling test
 (Models here are all using R50-FPN backbone)
