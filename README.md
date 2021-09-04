@@ -17,7 +17,7 @@ Clone the repository and open `colab.ipynb` for model training and usage. Detail
 # Training Results
 We've trained our photos with different backbones and sample size. Backbones can be found in [detectron2/MODEL_ZOO](https://github.com/facebookresearch/detectron2/blob/master/MODEL_ZOO.md "detectron2/MODEL_ZOO"). The samples are selected randomly from the training dataset. The configurations used for all training are as follow:
 - Backbone used: X101-FPN, R101-FPN, R50-FPN
-- Batch size per step: 4
+- Batch size per step: 2
 - Iterations: 1000
 - Train image percentages used: 100%, 75%, 50%, 25% of training data
 ### Backbone test
