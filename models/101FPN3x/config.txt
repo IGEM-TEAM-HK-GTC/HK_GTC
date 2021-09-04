@@ -6,7 +6,7 @@ def create_cfg():
   cfg.DATALOADER.NUM_WORKERS = 2
   cfg.DATALOADER.FILTER_EMPTY_ANNOTATIONS = False
   cfg.MODEL.WEIGHTS = model_zoo.get_checkpoint_url("COCO-InstanceSegmentation/mask_rcnn_R_101_FPN_3x.yaml") 
-  cfg.SOLVER.IMS_PER_BATCH = 4               #BATCH_SIZE
+  cfg.SOLVER.IMS_PER_BATCH = 2               #BATCH_SIZE
   cfg.SOLVER.BASE_LR = 0.00025
   cfg.SOLVER.STEPS = []
   cfg.SOLVER.MAX_ITER = 1000                ##epoch = MAX_ITER * BATCH_SIZE / TOTAL_NUM_IMAGES
