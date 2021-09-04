@@ -26,7 +26,7 @@ We've trained our photos with different backbones and sample size. Backbones can
 | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |------------ |
 |  R50-FPN |  51.1|  72.2 | 60.6  | 16.7  |  44.8 |  68.3 |[model](https://github.com/IGEM-TEAM-HK-GTC/HK_GTC/blob/main/models/R50FPN/model_final.pth)|
 | R101-FPN  |52.2| 75.6  | 59.8  |19.7|  45.5 | 68.7 |[model](https://github.com/IGEM-TEAM-HK-GTC/HK_GTC/blob/main/models/101FPN3x/model_final.pth)|
-| X101-FPN  | 52.7  | 75.7 | 58.9|13.3 |  47.9 | 68.5 |[model](https://github.com/IGEM-TEAM-HK-GTC/HK_GTC/blob/main/models/X101FPN/model_final.pth) |
+| X101-FPN  | 54.8  | 77.8 | 61.4 | 10.9 |  48.8 | 72.5 |[model](https://github.com/IGEM-TEAM-HK-GTC/HK_GTC/blob/main/models/X101FPN/model_final.pth) |
 
 ### Random-subampling test
 (Models here are all using R50-FPN backbone)
