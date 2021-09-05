@@ -33,8 +33,8 @@ We've trained our photos with different backbones and sample size. Backbones can
 
 | Train Images Percentage  |  AP  |   AP50| AP75  | APs  | APm  |  APl | model |
 | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
-|  100 |   51.1|  72.2 | 60.6  | 16.7  |  44.8 |  68.3 |[model](https://github.com/IGEM-TEAM-HK-GTC/HK_GTC/blob/main/models/R50FPN/model_final.pth)|
+|  100 |   51.1|  72.2 | 60.6  | 68.3 |  44.8 |  16.7 |[model](https://github.com/IGEM-TEAM-HK-GTC/HK_GTC/blob/main/models/R50FPN/model_final.pth)|
 | 75  |   |   |   |   |   |   ||
 | 50  |   |   |   |   |   |   |   ||
-| 25  |   |   |   |   |   |   |   ||
+| 25  | 48.0  |  68.4 |  57.5 | 63.0  |  43.4 |  11.9 |[model]()|
 
