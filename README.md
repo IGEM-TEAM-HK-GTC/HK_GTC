@@ -1,7 +1,7 @@
 # HK_GTC - Detection Of PET Bottles
 As we all know, plastic pollution is a severe problem to our ecosystem. In respond to this problem, our team had created a plastic detecting model. In this Github Repository, you will know how to use the model, and train the model with your own dataset.
 
-## Dependanies
+## Dependenies
 - Local Linux environment or [Google Colab Notebook](https://colab.research.google.com/drive/1sCnt15Fhb1XbxI3z0nbDSENIBLorK7ve "Google Colab Notebook")
 - Detectron2
 - Jupyter Notebook
