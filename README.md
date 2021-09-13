@@ -28,7 +28,7 @@ We've trained our photos with different backbones and sample size. Backbones can
 | R101-FPN3x  |52.3| 74.8  | 59.9  | 19.0 |  45.7 | 69.0 |[model](https://github.com/IGEM-TEAM-HK-GTC/HK_GTC/blob/main/models/101FPN3x/model_final.pth)|
 | X101-FPN3x  | 54.8  | 77.8 | 61.4 | 10.9 |  48.8 | 72.5 |[model](https://github.com/IGEM-TEAM-HK-GTC/HK_GTC/blob/main/models/X101FPN/model_final.pth) |
 
-### Random-subampling test
+### Power estimation test
 (Models here are all using R50-FPN backbone)
 
 | Train Images Percentage  |  AP  |   AP50| AP75  | APs  | APm  |  APl |
